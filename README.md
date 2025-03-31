@@ -10,16 +10,6 @@ Prisma documentation can be found [here](https://www.prisma.io/docs/getting-star
 $ npm install
 ```
 
-### Only for using Vercel
-
-```bash
-$ vercel login
-```
-
-```bash
-$ npm i -g vercel
-```
-
 ### Configuration
 
 - Database Connection
@@ -61,17 +51,6 @@ $ nest start --watch
 
 ## Deploying the app
 
-### Vercel
-
-```bash
-$ npm run build
-```
-
-```bash
-$ vercel link
-$ vercel env add DATABASE_URL production
-$ vercel deploy --prod
-```
 
 ## License
 
